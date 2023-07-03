@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.png"
+      type="image/x-icon"
+    />
+    <title>Resume Container</title>
+
+    <!-- FontAwesome CDN  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./styles/resume.css" />
+  </head>
+  <body>
+    <div id="resume-container">
+      <h1 id="name1" align="center"></h1><br>
+      <h2 id="profile1" align="center"></h2><br><br><hr>
+      <h3>Experience :</h3>
+      <p id="experience1" align="left"> </p><br>
+      <h3  align="left">Projects : </h3>
+        <p id="projects1" align="left"></p>
+    <br>
+    <h3 align="left">Qualifications : </h3>
+        <p id="qualifications1" align="left"></p>
+    <br>
+    <h3 align="left">Skills : </h3>
+        <p id="skills1" align="left"></p>
+    <br>
+    <strong>Contact number : </strong>
+        <p id="contact1" align="left"><br><br>
+          </p>
+          <strong>Email ID : </strong>
+          
+          <p id="email1">
+      </p></div>
+    </div>
+    
+      <button type="button" class="toggleButton">
+        <a href="./index.html">Edit</a>
+      </button>
+      <button type="button" class="btn-download"  
+      onclick="window.print()">Download</button>
+    
+    
+
+    <script src="./scripts/resume.js"></script>
+  </body>
+</html>

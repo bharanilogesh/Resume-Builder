@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Builder</title>
+    <!-- favicon-->
+    <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon" />
+
+    <!--fontawesome CDN-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--normalise CSS-->
+    <link rel="stylesheet" href="./styles/normalize.css" />
+
+    <!--scustom CSS-->
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <form class="data" id="data">
+
+      <h1 class="tittle">Enter Your Details :</h1>
+        
+        <input type="text" id="name" placeholder="Enter Your Name">
+    <br> <br>
+
+      <input type="text" id="profile" placeholder="Enter Your Job Profile">
+    <br> <br>
+    
+      <textarea type="text" id="experience" 
+      cols="25" 
+      rows="5"
+      placeholder="Enter Your Experience"></textarea>
+    <br> <br>
+
+      <textarea type="text" id="projects" 
+      cols="25" 
+      rows="5"
+      placeholder="Enter Your Projects"></textarea>
+    <br> <br>
+
+      <textarea type="text" id="qualifications" 
+      cols="25" 
+      rows="5"
+      placeholder="Enter Your Qualifications"></textarea>
+    <br> <br>
+
+      <textarea type="text" id="skills" 
+      cols="25" 
+      rows="5"
+      placeholder="Enter Your Skills"></textarea>
+    <br> <br>
+
+      <input type="number" id="contact" placeholder="Enter Your Contact Number">
+    <br> <br>
+
+      <input type="text" id="email" placeholder="Enter Your Email Id">
+    <br> <br>
+      
+    </form>
+
+
+    <button type="button" id="output" class="preview-button"><a href="./resume.html" class="btn-name">Preview</a></button>
+
+    <!--custom JS-->
+    <script src="./scripts/scripts.js"></script>
+  </body>
+</html>
